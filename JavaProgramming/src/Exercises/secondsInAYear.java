@@ -13,8 +13,6 @@ public class secondsInAYear {
         totalHours = days * 24;
         totalMinutes = totalHours * 60;
         totalSeconds = totalMinutes * 60;
-
-
         return totalSeconds;
     }
 }

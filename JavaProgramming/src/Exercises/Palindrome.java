@@ -20,8 +20,8 @@ public class Palindrome {
         if (reverseString(input).equalsIgnoreCase(input)) {
             return true;
         }
-        return false;
+        else {
+            return false;
+        }
     }
-
-
 }
